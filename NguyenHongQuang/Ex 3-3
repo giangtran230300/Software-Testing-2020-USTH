@@ -1,0 +1,41 @@
+import org.junit.*;
+import static org.junit.Assert.*;
+public class BoundedQueueTest
+{
+ @Test 
+ public void testForNullPointer()
+ {
+  BoundedQueue.BoundedQueue(1);
+  elements.enQueue (null);
+  elements.toString();  
+ }
+
+ @Test 
+ public void testEmptyList()
+ {
+  BoundedQueue.BoundedQueue(0);
+  elements.toString(); 
+ }
+ 
+ @Test
+ public void testNormalList()
+ {
+  BoundedQueue.BoundedQueue(4);
+  elements.enQueue(1);
+  elements.enQueue(a);
+  elements.enQueue(2);
+  elements.enQueue(3);
+  elements.deQueue();
+  elements.toString();
+ }
+
+ @Test 
+ public void testListWithNullValue()
+ {
+  BoundedQueue.BoundedQueue(3);
+  elements.enQueue(1);
+  elements.enQueue(null);
+  elements.enQueue(2);
+  elements.toString(); 
+ }
+}

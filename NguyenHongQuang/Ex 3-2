@@ -1,0 +1,9 @@
+# Ex 3-2
+Inheritance is a strong software design mechanism. How-
+ever its complicated the testing ability. To be able to con-
+trol a class with inheritance trait, we need to control every
+sub-class and super-class of it. Same thing with observ-
+ability, the apply of inheritance only makes its harder to
+observe the behaviour of the class since the class not only
+depend on them-self, they also depend on their super-class
+or sub-class.
