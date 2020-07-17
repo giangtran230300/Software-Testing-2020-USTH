@@ -1,0 +1,71 @@
+Ex3-3
+import org.junit.*;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
+import org.junit.runners.Parameterized.Parameters;
+import static org.junit.Assert.*;
+import java.util.*;
+public class BoundedQueueTest {
+
+    @Test
+    public void testEnQueue() {
+        System.out.println("enQueue");
+        Object bd = 1;
+        BoundedQueue instance = new BoundedQueue(5);
+        instance.enQueue(bd);
+
+        assertEquals(instance.toString(), "[1]");
+    }
+
+    @Test
+    public void testDeQueue() {
+        System.out.println("deQueue");
+        Object bd = 1;
+        Object hc = 2;
+        BoundedQueue instance = new BoundedQueue(5);
+        instance.enQueue(bd);
+        instance.enQueue(hc);
+        instance.deQueue();
+
+        assertEquals(instance.toString(), "[2]");
+    }
+
+    @Test
+    public void testIsEmpty() {
+        System.out.println("isEmpty");
+
+        BoundedQueue instance = new BoundedQueue(5);
+
+        assertEquals(instance.isEmpty(), true);
+    }
+
+    @Test
+    public void testIsFull() {
+        System.out.println("isFull");
+        Object hc = 1;
+        BoundedQueue instance = new BoundedQueue(5);
+        instance.enQueue(a);
+        instance.enQueue(a);
+        instance.enQueue(a);
+        instance.enQueue(a);
+        instance.enQueue(a);
+
+        assertEquals(instance.isFull(), true);
+    }
+}
+
+Ex 3-2:
+It can be influence controllability and discernibleness because the subclasses are subject to the parent class, if making changes to a parent class, its subclasses will likewise be influenced. So we need to take care carefully the subclasses, which will affects observability.
+
+Ex 3-5
+The attestation just checks a the principal component in the rundown. In the event that a test makes a deficiency contaminate, and afterward engender to 
+another piece of the last express, the disappointment won't be uncovered. Let see the list to known exactly:
+* Reachability: only reach if that is the first element.
+* Infection: The first element can be incorrect.
+* Propagation: The first one is not right, then the system can be unworking, or worked in uncontrolling way.
+* Revealability: The failure only can be found if the the first element is incorrect.
+
+
+
+Ex 3-10
+The theory is invalid because the  order matters in lists. Everytime we remove then add back the element does not change but the order is change which makes the JUnit theory fails
