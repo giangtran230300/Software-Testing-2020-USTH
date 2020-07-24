@@ -1,0 +1,8 @@
+# 6-3. #
+
+----------
+a. search([3,3,1], 3). This one fail the disjoint property since this list in both block 1 and block 3.
+
+b. search([1,7,5], 2). This one fail the complete property since this list doesn't in any block.
+
+c. New partition: Block 4: element is not in the list.
