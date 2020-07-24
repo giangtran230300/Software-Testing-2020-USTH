@@ -1,0 +1,7 @@
+# 6-2. #
+
+----------
+Two mistakes:
+
+1. The partition doesn't cover all the input domain, the "Where Made" should have Africa, South America, ...
+2. The parts aren't disjoint. "Hatch back" can be "2-door" or "4-door".	
