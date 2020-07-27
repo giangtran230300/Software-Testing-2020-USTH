@@ -1,0 +1,102 @@
+8.2.1. Use predicates (i) through (iv) to answer the following questions.
+i. f = abc' + a'bc'
+ii. f = a'b'c'd' + abcd
+iii. f = ab + ab'c + a'b'c
+iv. f = a'c'd' + c'd + bcd
+(a) Draw the Karnaugh maps for f and f'.
+(b) Find the nonredundant prime implicant representation for f and f'.
+(c) Give a test set that satisfies Implicant Coverage (IC) for f.
+(d) Give a test set that satisfies Multiple Unique True Points
+(MUTP) for f.
+(e) Give a test set that satisfies Corresponding Unique True Point
+and Near False Point Pair Coverage (CUTPNFP) for f.
+(f) Give a test set that satisfies Multiple Near False Points (MNFP)
+for f.
+(g) Give a test set that is guaranteed to detect all faults in Figure
+
+(a)
+i. f = abc' + a'bc'
+Karnaugh maps for f
+                 ab
+        | 00 | 01 | 10 | 11 |
+ c |  0 | 0  | 1  | 0  | 1  |
+   |  1 | 0  | 0  | 0  | 0  |
+   
+Karnaugh maps for f'
+                 ab
+        | 00 | 01 | 10 | 11 |
+ c |  0 | 1  | 0  | 1  | 0  |
+   |  1 | 1  | 1  | 1  | 1  |
+   
+ii. f = a'b'c'd' + abcd
+Karnaugh maps for f
+                 ab
+        | 00 | 01 | 10 | 11 |
+   | 00 | 1  | 0  | 0  | 0  |
+cd | 01 | 0  | 0  | 0  | 0  |
+   | 10 | 0  | 0  | 0  | 0  |
+   | 11 | 0  | 0  | 0  | 1  |
+   
+Karnaugh maps for f'
+                 ab
+        | 00 | 01 | 10 | 11 |
+   | 00 | 0  | 1  | 1  | 1  |
+cd | 01 | 1  | 1  | 1  | 1  |
+   | 10 | 1  | 1  | 1  | 1  |
+   | 11 | 1  | 1  | 1  | 0  |
+   
+iii. f = ab + ab'c + a'b'c
+Karnaugh maps for f
+                 ab
+        | 00 | 01 | 10 | 11 |
+ c |  0 | 0  | 0  | 0  | 1  |
+   |  1 | 1  | 0  | 1  | 1  |
+   
+Karnaugh maps for f'
+                 ab
+        | 00 | 01 | 10 | 11 |
+ c |  0 | 1  | 1  | 1  | 0  |
+   |  1 | 0  | 1  | 0  | 0  |
+   
+iv. f = a'c'd' + c'd + bcd
+Karnaugh maps for f
+                 ab
+        | 00 | 01 | 10 | 11 |
+   | 00 | 1  | 1  | 0  | 0  |
+cd | 01 | 1  | 1  | 1  | 1  |
+   | 10 | 0  | 0  | 0  | 0  |
+   | 11 | 0  | 1  | 0  | 1  |   
+Karnaugh maps for f'
+                 ab
+        | 00 | 01 | 10 | 11 |
+   | 00 | 0  | 0  | 1  | 1  |
+cd | 01 | 0  | 0  | 0  | 0  |
+   | 10 | 1  | 1  | 1  | 1  |
+   | 11 | 1  | 0  | 1  | 0  |  
+   
+(b)
+i. f = abc' + a'bc'
+The nonredundant prime implicant representation for f are: bc'.
+The nonredundant prime implicant representation for f' are: bc + b'.
+
+ii. f = a'b'c'd' + abcd
+The nonredundant prime implicant representation for f are: a'b'c'd' + abcd.
+The nonredundant prime implicant representation for f' are: a'b + ab' + abcd' + abc' + a'b'c + a'b'c'd.
+
+iii. f = ab + ab'c + a'b'c
+The nonredundant prime implicant representation for f are: ab + b'c.
+The nonredundant prime implicant representation for f' are: a'b + b'c'.
+
+iv. f = a'c'd' + c'd + bcd
+The nonredundant prime implicant representation for f are: a'c'd' + c'd + bcd.
+The nonredundant prime implicant representation for f' are: ac'd' + cd' + b'cd.
+
+(c)
+i. f = abc' + a'bc'
+T1 = {TTF,TTT}.
+
+ii. f = a'b'c'd' + abcd
+T1 = {
+
+
+
