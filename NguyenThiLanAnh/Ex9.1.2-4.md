@@ -1,0 +1,23 @@
+Ex 9.1.2-4
+
+a. How many nonterminal symbols are in the grammar?
+
+4
+
+b. How many terminal symbols are in the grammar?
+
+13
+
+c. Write two strings that are valid according to the BNF. 
+
+116 possible strings, including: wio, xf
+
+d. For each of your two strings, give two valid mutants of the string.
+
+wio --> wit, mio
+xr --> xi, sf
+
+e. For each of your two strings, give two invalid mutants of the string.
+
+wio --> wir, pio
+xr --> fr, xm 
