@@ -1,0 +1,4 @@
+8.1-1: Clauses :f <=g
+	 X >0
+	 M
+	 e < d+c

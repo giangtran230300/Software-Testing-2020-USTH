@@ -1,0 +1,5 @@
+9.2-2:
+
+a)findVal:The mutant is always reached
+b)findVal:Infection  always  occurs,because i always has the wrong value after initialization in the loop.
+c)findVal:As long as the last occurrence of val isn’t at numbers[0], the correct output isreturned.

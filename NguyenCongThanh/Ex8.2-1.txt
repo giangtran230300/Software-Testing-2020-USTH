@@ -1,0 +1,27 @@
+8.2-1:
+
+a)
+Karnaugh maps for f
+
+| c\a, b | 00 | 01 | 11 | 10 |
+|:------:|----|----|----|----|
+|  **0** | 0  | 1  | 1  | 0  |
+|  **1** | 0  | 0  | 0  | 0  |
+
+Karnaugh maps for ¯f
+
+| c\a, b | 00 | 01 | 11 | 10 |
+|:------:|----|----|----|----|
+|  **0** | 1  | 0  | 0  | 1  |
+|  **1** | 1  | 1  | 1  | 1  |
+
+Nonredundant prime implicant representation forf:f=b ̄c
+Nonredundant prime implicant representation for ̄f: ̄f= ̄b+c
+f is a function ofbandconly;a is irrelevant.
+
+c)
+implicants {b ̄c, ̄b, c} in f and ̄f
+Test set {xT F, xF T} satisfies IC
+
+e)
+Test set {xTF, xFF, xTT} sastifies CUTPNFP
