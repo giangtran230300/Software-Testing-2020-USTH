@@ -1,0 +1,52 @@
+import static org.junit.Assert.assertEquals;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import org.junit.Test;
+
+public class QuadraticTest {
+    
+	@Test(expected=AssertionError.class)
+    public void testAssertionsEnabled() {
+        assert false; 
+    }
+	
+	@Test
+    public void testPositiveRoots() {
+        assertEquals(makeSet(5, 8), Quadratic.roots(1, -(5+8), 5*8));
+    }
+ 
+    @Test
+    public void testNegativeRoots() {
+        assertEquals(makeSet(-8, -2), Quadratic.roots(1, -(-8+-2), -8*-2));
+    }
+ 
+    @Test
+    public void testOppositeSignRoots() {
+        assertEquals(makeSet(11, 3), Quadratic.roots(-7, -7*-1*(11+3), -7*11*3));
+    }
+
+	@Test
+    public void testOneZeroRoot() {
+        assertEquals(makeSet(0, 9), Quadratic.roots(1, -9, 0));
+    }
+
+    @Test
+    public void testOneRoot() {
+        assertEquals(makeSet(13), Quadratic.roots(1, -2*13, 13*13));
+    }
+	
+    @Test
+    public void testBothZeroRoots() {
+        assertEquals(makeSet(0), Quadratic.roots(1, 0, 0));
+    }
+    
+	private static Set<Integer> makeSet(int... elements) {
+        Set<Integer> set = new HashSet<>();
+        for (int x: elements) {
+            set.add(x);
+        }
+        return set;
+    }
+}
