@@ -1,0 +1,25 @@
+4. Consider the following BNF:
+(a)How many nonterminal symbols are in the grammar?
+(b)How many terminal symbols are in the grammar?
+(c)Write two strings that are valid according to the BNF.
+(d)For each of your two strings, give two valid mutants of the
+string.
+(e) For each of your two strings, give two invalid mutants of the
+string.
+
+(a)
+There are 4 nonterminal symbols are in the grammar
+
+(b)
+There are 13 terminal symbols are in the grammar
+
+(c)
+"wi", "wtf"
+
+(d)
+"wi": "si", "mi"
+"wtf": "stf", "wtc"
+
+(e)
+"wi": "hi", "ni"
+"wtf": "wha", "why"
