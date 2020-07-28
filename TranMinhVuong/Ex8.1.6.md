@@ -1,0 +1,1 @@
+Test value for Clause Coverage { (x = 3,y = 5); (x = 5,y =3 ); (done = true); (done = false); (list = {"Dog","Cat"},str = "Cat");(list = {"Dog","Mouse"},str = "Cat)}

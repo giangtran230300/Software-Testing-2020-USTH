@@ -1,0 +1,1 @@
+((wireless)∧(retail price >100 ∨ items > 20))∧((¬wireless)∧(retail price > 50)) 

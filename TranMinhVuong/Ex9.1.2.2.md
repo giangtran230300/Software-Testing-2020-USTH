@@ -1,0 +1,1 @@
+Mutation score is simillar to coverage in Chapter 5: that is Mutation score can be treated as a kind of Mutation Coverage
