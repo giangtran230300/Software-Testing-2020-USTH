@@ -1,0 +1,4 @@
+a)Impossible
+b)Impossible
+c)(numbers, val) = [-1, 1], 1
+d)(numbers, val) = [1, 0], 1

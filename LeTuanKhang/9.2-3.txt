@@ -1,0 +1,4 @@
+a)Impossible
+b)Impossible
+c)All zeros
+d)All ones
