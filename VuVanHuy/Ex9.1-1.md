@@ -1,0 +1,1 @@
+"Mutation score" is the ratio of mutants killed over all mutants.

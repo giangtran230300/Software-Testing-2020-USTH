@@ -1,0 +1,5 @@
+* We’ll start with GACC, and add more constraints we we proceed to RACC. Then , we’ll repeat the process for GICC and RICC. The goal here is to help students by giving amore explicit explanation of the test requirements.
+* We assumepis the predicate , Ci is the major clause , Cj, j != i   are the minor clauses, andpciis the conditions under which Ci determines p
+* For each i, GACC has two test requirements : ci=T ∧ p(ci) =T and ci = F ∧ p(ci) = T. Note that the values of the minor clauses cj may differ between the two test
+* For each i, CACC has two test requirements : ci=T ∧ pci = T and ci = F ∧ pci = T. Additionally, the value of presulting from the first test must differ from the value of p resulting from the second. Note that the values of the minor clauses cj may differ between the two tests
+* 

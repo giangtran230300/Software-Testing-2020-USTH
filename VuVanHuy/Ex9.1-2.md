@@ -1,0 +1,1 @@
+"Mutation score" is like the coverage level in chapter 5. They are both mention about the ratio.
