@@ -24,7 +24,7 @@ Eight tests are needed
 |  2 |  2 |     x     |
 |  2 |  2 |     /     |
 
-c) How many tests are needed to satisfy the All Combinations criterion?  (Do not list allthe tests!)
+c) How many tests are needed to satisfy the All Combinations criterion?  (Do not list all the tests!)
 
 3*3*4 = 36 tests
 
